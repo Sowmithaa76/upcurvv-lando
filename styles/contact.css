@@ -1,0 +1,230 @@
+.contact-page {
+width:100%;
+margin:0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 100px;
+margin-top: 100px;
+/* margin-left: 100px; */
+}
+
+.page1 img {
+width: 450px;
+height: 450px;
+/* margin-bottom: 50px; */
+}
+
+.page2 {
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+margin-bottom: 30px;
+}
+
+.page2 h2 {
+margin-bottom: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+
+.page2 p {
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+font-weight: 400;
+margin-top: -40px;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.contact-form label {
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+margin-top: 10px;
+}
+
+.contact-form input {
+width: 230px;
+height: 40px;
+border-radius: 5px;
+border: 1px solid transparent;
+background-color: white;
+}
+
+.contact-form input::placeholder {
+color: black;
+padding-left: 10px;
+}
+
+.submit input {
+color: white;
+background-color: #116ee0;
+border: 1px solid transparent;
+}
+/* MOBILE */
+@media screen and (max-width: 575px) {
+
+    .contact-page {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 15px 10px;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .page1 {
+        width: 42%;
+        flex-shrink: 0;
+    }
+
+    .page1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    .page2 {
+        width: 58%;
+        min-width: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .page2 h2 {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    .page2 p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-top: -30px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .contact-form label {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .contact-form input {
+        width: 100%;
+        height: 35px;
+        padding: 0 8px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    .contact-form input::placeholder {
+        padding-left: 0;
+        font-size: 11px;
+    }
+
+    .submit input {
+        width: 100%;
+        height: 35px;
+        font-size: 12px;
+        padding: 0;
+        margin-top: 8px;
+    }
+}
+
+
+/* TABLET*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .contact-page {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 20px;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .page1 {
+        width: 45%;
+        flex-shrink: 0;
+    }
+
+    .page1 img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    .page2 {
+        width: 45%;
+        min-width: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .page2 h2 {
+        font-size: 28px;
+        margin-bottom: 45px;
+    }
+
+    .page2 p {
+        font-size: 14px;
+        margin-top: -35px;
+        line-height: 1.5;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+
+    .contact-form input {
+        width: 100%;
+        max-width: 280px;
+        height: 40px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .contact-form input::placeholder {
+        padding-left: 0;
+    }
+
+    .submit input {
+        width: 100%;
+        max-width: 280px;
+        height: 40px;
+        margin-top: 8px;
+    }
+}

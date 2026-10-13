@@ -1,0 +1,335 @@
+/* about page 1 */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.about1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.abt-img1 img {
+    width: 700px;
+    height: 380px;
+}
+
+.about2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about2 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    border-bottom: 2px solid rgba(161, 156, 156, 0.364);
+}
+
+/* aboutpage 2 */
+.about-content-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.about-3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+/* aboutpage 3 */
+.teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.teams h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.teams p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.team-img img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.team-img h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.team-img p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* about page 4 */
+.about-content-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 220px;
+    width: 700px;
+    height: 350px;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.abt-sub h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.abt-sub p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: -45px;
+}
+
+.abt-sub button.abt-btn {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: #116ee0;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.abt-sub button.abt-btn:hover {
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(41, 41, 251);
+}
+
+/* Mobile*/
+@media screen and (max-width: 576px) {
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .about1 h2 {
+        font-size: 15px;
+    }
+
+    .about2 h2 {
+        font-size: 15px;
+    }
+
+    .about1 p {
+        font-size: 10px;
+    }
+
+    .about2 p {
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .abt-img1 img {
+        width: 200px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-3 h2 {
+        font-size: 15px;
+        white-space: nowrap;
+        margin-left: -50px;
+    }
+
+    .abt-img2 img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .teams h3 {
+        font-size: 15px;
+    }
+
+    .teams p {
+        font-size: 10px;
+    }
+    .team-img {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left:-40px;
+    }
+    .team-img img {
+        width:130px;
+        height: 100px;
+    
+    } 
+    .team-img h4{
+        font-size:15px;
+        margin-left:70px;
+        white-space:nowrap;
+    }
+    .team-img p{
+        font-size:10px;
+        margin-left:70px;
+        white-space:nowrap;
+    }
+    .about-content-4{
+        max-width: 90%;
+        margin: 30px auto;
+        padding: 20px 15px;
+        height: auto;
+        min-height: 200px;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    }
+    .abt-sub h2{
+        font-size:15px;
+        white-space:nowrap;
+    }
+    .abt-sub p{
+        font-size:10px;
+        white-space:nowrap;
+        margin-left:0;
+        margin-right:0;
+    }
+    .abt-sub button{
+        font-size:9px;
+        width:80px;
+        height:30px;
+        white-space:nowrap;
+        padding:1px 2px;
+    }
+    .abt-img3 img{
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+        margin: 0 10px;
+    }
+
+}
+
+
+/* talet */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0 30px;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+
+    .about1,
+    .about2 {
+        width: 100%;
+        max-width: 750px;
+        box-sizing: border-box;
+    }
+
+    .about1 h2,
+    .about2 h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .about1 p,
+    .about2 p {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 17px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .abt-img1 img {
+        width: 350px;
+        height: 250px;
+    }
+    .about-content-3{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .team-img img{
+        width:130px;
+        height:150px;
+    }
+    .about-content-4{
+        margin-left:30px;
+    }
+}
